@@ -1,0 +1,52 @@
+Given an array A, partition it into two subarrays left and right,
+Every element in left is less than or equal to every element in right.
+left and right are non-empty.
+left has the smallest possible size.
+Return the length of left after such a partitioning.  It is guaranteed that such a partitioning exists.
+
+Input Description:
+n length of the array, in next line,
+n elements os array
+(1<n<1000)
+
+Output Description:
+the length of left after such a partitioning
+
+Sample Input:
+5
+3 5 0 6 7
+
+Sample Output:
+3
+
+Explanation:
+left =(3,5,0)
+so the length is 3
+
+Sample Input:
+4
+1 2 0 3
+
+Sample Output:
+3
+
+Sample Input:
+6
+1 1 0 6 8 3
+
+Sample Output:
+3
+
+Sample Input:
+8
+2 0 3 4 6 9 12 16
+
+Sample Output:
+2
+
+Sample Input:
+6
+5 17 23 37 59 99
+
+Sample Output:
+1
